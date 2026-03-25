@@ -1,0 +1,7 @@
+model_name,seed,best_epoch,best_val_macro_f1,checkpoint_path,trainable_params
+compact,17,6,0.7389915236596463,/kaggle/working/eeml_nli_abstention/outputs/checkpoints/compact/seed_17/best.pt,11039491
+compact,42,6,0.7428847035913902,/kaggle/working/eeml_nli_abstention/outputs/checkpoints/compact/seed_42/best.pt,11039491
+compact,73,6,0.7543821984966198,/kaggle/working/eeml_nli_abstention/outputs/checkpoints/compact/seed_73/best.pt,11039491
+bert,17,3,0.9104652335520393,/kaggle/working/eeml_nli_abstention/outputs/checkpoints/bert/seed_17/best.pt,109484547
+bert,42,3,0.9042937355170372,/kaggle/working/eeml_nli_abstention/outputs/checkpoints/bert/seed_42/best.pt,109484547
+bert,73,3,0.9081334781196412,/kaggle/working/eeml_nli_abstention/outputs/checkpoints/bert/seed_73/best.pt,109484547

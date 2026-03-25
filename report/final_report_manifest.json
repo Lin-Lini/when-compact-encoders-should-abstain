@@ -1,0 +1,17 @@
+{
+  "project_name": "eeml_nli_abstention",
+  "tokenizer": "google-bert/bert-base-uncased",
+  "smoke_mode": false,
+  "fixed_coverages": [
+    0.95,
+    0.9,
+    0.8,
+    0.7
+  ],
+  "models": [
+    "bert",
+    "compact"
+  ],
+  "n_training_runs": 6,
+  "artifacts_root": "/kaggle/working/eeml_nli_abstention"
+}

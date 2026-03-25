@@ -1,0 +1,3 @@
+model_name,trainable_params__mean,trainable_params__std,throughput_items_per_sec__mean,throughput_items_per_sec__std,mean_batch_latency_sec__mean,mean_batch_latency_sec__std,median_batch_latency_sec__mean,median_batch_latency_sec__std
+bert,109484547.0,0.0,309.2900682635561,5.106740197556419,0.20696276656659998,0.003386183416973843,0.19988282383261927,0.003955484789325241
+compact,11039491.0,0.0,7085.533933340383,63.23968032220386,0.009032965573108715,8.026841358431707e-05,0.008791494000737051,7.774173824895155e-05

@@ -1,0 +1,8 @@
+{
+  "model_name": "compact",
+  "seed": 73,
+  "best_epoch": 6,
+  "best_val_macro_f1": 0.7543821984966198,
+  "checkpoint_path": "/kaggle/working/eeml_nli_abstention/outputs/checkpoints/compact/seed_73/best.pt",
+  "trainable_params": 11039491
+}

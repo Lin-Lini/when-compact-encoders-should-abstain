@@ -1,0 +1,8 @@
+{
+  "model_name": "bert",
+  "seed": 73,
+  "best_epoch": 3,
+  "best_val_macro_f1": 0.9081334781196412,
+  "checkpoint_path": "/kaggle/working/eeml_nli_abstention/outputs/checkpoints/bert/seed_73/best.pt",
+  "trainable_params": 109484547
+}

@@ -1,0 +1,7 @@
+split,n_rows
+snli_train,549367
+snli_val,9842
+snli_test,9824
+mnli_matched,9815
+mnli_mismatched,9832
+hans,30000

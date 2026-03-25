@@ -1,0 +1,75 @@
+{
+  "project_name": "eeml_nli_abstention",
+  "output_root": "/kaggle/working/eeml_nli_abstention",
+  "smoke_mode": false,
+  "smoke_rows_train": 12000,
+  "smoke_rows_eval": 3000,
+  "tokenizer_candidates": [
+    "google-bert/bert-base-uncased",
+    "bert-base-uncased"
+  ],
+  "bert_model_candidates": [
+    "google-bert/bert-base-uncased",
+    "bert-base-uncased"
+  ],
+  "max_length": 128,
+  "compact_seeds": [
+    17,
+    42,
+    73
+  ],
+  "bert_seeds": [
+    17,
+    42,
+    73
+  ],
+  "compact_cfg": {
+    "d_model": 256,
+    "n_heads": 4,
+    "n_layers": 4,
+    "ff_dim": 1024,
+    "dropout": 0.1,
+    "max_position_embeddings": 256,
+    "layer_norm_eps": 1e-05
+  },
+  "compact_train": {
+    "epochs": 6,
+    "lr": 0.0003,
+    "weight_decay": 0.01,
+    "batch_size": 64,
+    "eval_batch_size": 128,
+    "grad_accum_steps": 1,
+    "warmup_ratio": 0.06,
+    "max_grad_norm": 1.0,
+    "patience": 2,
+    "num_workers": 2,
+    "amp": true
+  },
+  "bert_train": {
+    "epochs": 3,
+    "lr": 2e-05,
+    "weight_decay": 0.01,
+    "batch_size": 16,
+    "eval_batch_size": 64,
+    "grad_accum_steps": 2,
+    "warmup_ratio": 0.06,
+    "max_grad_norm": 1.0,
+    "patience": 2,
+    "num_workers": 2,
+    "amp": true
+  },
+  "fixed_coverages": [
+    0.95,
+    0.9,
+    0.8,
+    0.7
+  ],
+  "selective_scores": [
+    "max_softmax",
+    "margin",
+    "entropy"
+  ],
+  "ece_bins": 15,
+  "benchmark_warmup_steps": 10,
+  "benchmark_steps": 50
+}

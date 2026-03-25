@@ -124,7 +124,3 @@ The repository is designed to provide the **final research artifacts and reprodu
 If you need a one-sentence summary for forms, applications, or portfolio descriptions:
 
 > Controlled empirical study of compact encoder reliability in NLI, comparing efficiency, calibration, and abstention behavior against BERT under distribution shift.
-
-## License
-
-Add a license file before public release if needed (`MIT`, `Apache-2.0`, or another appropriate choice).
